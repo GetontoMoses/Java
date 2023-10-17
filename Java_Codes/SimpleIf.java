@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Simp_leIf {
+public class SimpleIf {
     public static void main(String[] args){
         int a;
         Scanner myInput= new Scanner(System.in);
