@@ -1,18 +1,14 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        int firstNumber ;
-        int secondNumber ;
-        Scanner myInput = new Scanner(System.in);
-        System.out.println("Enter the first number");
-        firstNumber=myInput.nextInt();
-        System.out.println("Enter the second number");
-        secondNumber=myInput.nextInt();
-
-        int sum= firstNumber + secondNumber;
-        System.out.println("The sum is = "+sum);
-
-    }
+        for(int i=10;i<=4;i++){
+        System.out.println(i);
+        }
     
+    int n=10;
+    do
+    {System.out.println(n);}
+    while(n<4);
+}
 }
