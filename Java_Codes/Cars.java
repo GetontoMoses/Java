@@ -9,7 +9,7 @@ public class Cars {
         this.price=price;
     }
      public void Showdetails(){
-        System.out.println("Model: "+ model+" Make: "+make+" Price: ");
+        System.out.println("Model: "+ model+" Make: "+make+" Price: "+price);
      }
      void getDetails(){
         System.out.println("Model " + model);
